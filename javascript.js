@@ -30,3 +30,20 @@ homePlusThreeBtn.addEventListener('click', () => {
     homeScore += 3
     homeScoreDisplay.textContent = homeScore
 })
+
+// Guest buttons
+
+guestPlusOneBtn.addEventListener('click', () => {
+    guestScore += 1
+    guestScoreDisplay.textContent = guestScore
+})
+
+guestPlusTwoBtn.addEventListener('click', () => {
+    guestScore += 2
+    guestScoreDisplay.textContent = guestScore
+})
+
+guestPlusThreeBtn.addEventListener('click', () => {
+    guestScore += 3
+    guestScoreDisplay.textContent = guestScore
+})
