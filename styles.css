@@ -11,3 +11,50 @@ body {
     background: url('https://images.unsplash.com/photo-1602357280104-742c517a1d82?q=80&w=3050&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-size: cover;
 }
+
+.main-container {
+    border: 10px double #111827;
+    background: linear-gradient(white, transparent);
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+}
+
+.home, .guest {
+    display: flex;
+    flex-direction: column;
+}
+
+.team {
+    width: 149px;
+    height: 36px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+
+.score {
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F43F5E;
+    margin-top: 21px;
+    margin-bottom: 26px;
+    font-family: Timer;
+    text-align: center;
+    font-size: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
