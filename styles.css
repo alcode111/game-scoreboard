@@ -83,3 +83,25 @@ body {
     border: 3px solid black;
     cursor: pointer;  
 }
+
+#restart {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#btn-restart {
+    width: 85px;
+    height: 45px;
+    font-family: Timer;
+    background: linear-gradient(200deg, transparent, white);
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+#btn-restart:hover {
+    width: 90px;
+    height: 50px;
+    border: 3px solid black;
+    cursor: pointer;
+}
