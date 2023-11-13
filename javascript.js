@@ -47,3 +47,13 @@ guestPlusThreeBtn.addEventListener('click', () => {
     guestScore += 3
     guestScoreDisplay.textContent = guestScore
 })
+
+// Restart button
+
+btnRestart.addEventListener('click', () => {
+    homeScore = 0
+    guestScore = 0
+
+    homeScoreDisplay.textContent = homeScore
+    guestScoreDisplay.textContent = guestScore
+})
