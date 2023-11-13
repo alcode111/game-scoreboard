@@ -58,3 +58,28 @@ body {
     align-items: center;
     border-radius: 10px;
 }
+
+.btns {
+    width: 155px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    width: 45px;
+    height: 45px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: linear-gradient(45deg, transparent, white);
+    color: black;
+    font-family: Timer;
+    font-weight: 900;
+}
+
+.btn:hover {
+    width: 47px;
+    height: 47px; 
+    border: 3px solid black;
+    cursor: pointer;  
+}
