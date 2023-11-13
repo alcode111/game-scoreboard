@@ -1,1 +1,1 @@
-# game-scoreboard
+In this project we will build a scoreboard like the ones that can be found at a basketball game. It will display the score for 2 teams and be interactive as there will be the possibility to increment the score either by 1, 2 or 3, which are the type of points that can be scored in an official game.
