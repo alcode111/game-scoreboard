@@ -13,3 +13,20 @@ let guestPlusTwoBtn = document.getElementById("guest-plus-two");
 let guestPlusThreeBtn = document.getElementById("guest-plus-three");
 
 let btnRestart = document.getElementById("btn-restart")
+
+// Home buttons
+
+homePlusOneBtn.addEventListener('click', () => {
+    homeScore += 1
+    homeScoreDisplay.textContent = homeScore
+})
+
+homePlusTwoBtn.addEventListener('click', () => {
+    homeScore += 2
+    homeScoreDisplay.textContent = homeScore
+}) 
+
+homePlusThreeBtn.addEventListener('click', () => {
+    homeScore += 3
+    homeScoreDisplay.textContent = homeScore
+})
