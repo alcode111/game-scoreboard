@@ -100,8 +100,6 @@ body {
 }
 
 #btn-restart:hover {
-    width: 90px;
-    height: 50px;
     border: 3px solid black;
     cursor: pointer;
 }
